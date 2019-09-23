@@ -61,3 +61,4 @@ typings/
 .next
 
 server/db.json
+server/db_test.json
