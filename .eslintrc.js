@@ -6,6 +6,7 @@ module.exports = {
 		browser: true
 	},
 	globals: {
-		expect: true
+		expect: true,
+		_: true
 	}
 };
