@@ -7,7 +7,7 @@ const { port } = require('cnf');
 
 const eventsStorage = require('./eventsStorage');
 
-app.use(cors());
+app.use(cors({ origin: ['http://localhost:3031', 'http://127.0.0.1:3031'], credentials: true }));
 app.use(bodyParser.json());
 app.use(cookieSession({
 	name: 'client-activity-tracker-session',

@@ -4,7 +4,8 @@
   "description": "app that tracks user events",
   "main": "server/app.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "start": "start.sh"
   },
   "repository": {
     "type": "git",
